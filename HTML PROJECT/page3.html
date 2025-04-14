@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+    .a
+    {
+        text-align: center;
+        background-color: lightblue;
+        
+    }
+    .b{
+        background-color: rgb(255, 255, 255);
+         border: 2px solid gray;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .b:focus{
+        background-color: rgb(0, 255, 208); 
+        border-color: orange;
+        outline: none;
+    }
+    .c{
+        background-color: rgb(255, 255, 255);
+         border: 2px solid gray;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .c:focus{
+        background-color: rgb(0, 255, 225); 
+        border-color: orange;
+        outline: none;
+    }
+    .d{
+        background-color: rgb(255, 255, 255);
+         border: 2px solid gray;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .d:focus{
+        background-color: rgb(0, 251, 255); 
+        border-color: orange;
+        outline: none;
+    }
+    .e{
+        background-color: rgb(red, green, blue);
+         border: 2px solid gray;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .e:focus{
+        background-color: rgb(0, 255, 242); 
+        border-color: orange;
+        outline: none;
+    }
+   </style>
+</head>
+<body>
+   
+        
+ 
+        
+      
+        <div class="a">
+        <form >
+            <fieldset>
+            NAME: <input type="text" class="b" id="name" > <br>  <br>
+            AGE:<input type="number" class="c" id="number"><br><br>
+            
+            Education : <input type="radio" name="Education"  value="12th">12th
+            <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="Education"  value="UG">UG
+            <br>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Education"  value="PG">PG
+            <br> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="Education"  value="PHD">PHD <br>
+
+             <br> Study :<input type="radio" name="Education"  value="student">Student
+             
+             <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="study"  value="employee">Employee <br>
+           
+            <br>Email : <input type="email" class="d" name="email"  ><br>
+            <br>Mobile number : <input type="tel" class="e" max="10"  name="mobile number"><br><br>
+            country:
+            <select>
+                <option value=" ">Select</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Russia">Russia</option>
+                <option value="canada">canada</option>
+            </select>
+            <br>
+            <br> Prefered Clock Formate : <br><input type="radio" name="Prefered"  value="12 hours">12 Hours
+            <br>  <input type="radio" name="Prefered"  value="24 hours">24 Hours <br>
+
+    
+            <br><input type="submit"  value="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="reset"><br>
+            </filedset>
+            </form>
+            </div> 
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer {
+    background-color: #968e8e;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+
+}
+.footer nav {
+    display: flex;
+    justify-content: space-evenly; /* Distributes space evenly */
+     
+}
+   
+
+.container {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+/* .stopwatch {
+    font-size: 2rem;
+    margin: 20px;
+} */
+.footer select {
+    padding: 5px;
+    font-size: 1rem;
+}

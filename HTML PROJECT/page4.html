@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dialer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .dialer {
+      display: grid;
+      grid-template-columns: repeat(3, 80px);
+      gap: 10px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .dialer button {
+      padding: 20px;
+      font-size: 24px;
+      border: none;
+      border-radius: 10px;
+      background: #dfd4d4;
+      color: white;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .dialer button:hover {
+      background: #1200b3;
+    }
+    .display {
+      grid-column: span 3;
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="dialer">
+  <div class="display" id="display"></div>
+  <button onclick="press('1')">1</button>
+  <button onclick="press('2')">2</button>
+  <button onclick="press('3')">3</button>
+  <button onclick="press('4')">4</button>
+  <button onclick="press('5')">5</button>
+  <button onclick="press('6')">6</button>
+  <button onclick="press('7')">7</button>
+  <button onclick="press('8')">8</button>
+  <button onclick="press('9')">9</button><br>
+  <button onclick="press('0')">0</button>
+  <button onclick="backspace()">←</button>
+</div>
+
+
+
+</body>
+</html>
